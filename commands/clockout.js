@@ -25,7 +25,6 @@ module.exports = {
                 { name: 'Time', value: `${message.createdAt}`},
             )
             .setFooter(`${config["main_config"].copyright}`)
-            .setFooter(`${config["main_config"].copyright}`)
             message.guild.channels.cache.get(config["rp_bot_config"].clock_out_channel).send(clockoutEmbed).catch(e => {
                 console.error(e);
             })
