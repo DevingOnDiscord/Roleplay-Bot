@@ -1,0 +1,36 @@
+{
+    "main_config": {
+        "token": "your-bot-token",
+        "prefix": "h!",
+        "yourservername": "Roleplay Server",
+        "yourserverid": "810332594020417586",
+        "copyright": "© 2021 Roleplay Server",
+        "colorhex": "#0362fc",
+        "voicechanneltojoin": "810332594020417590"
+    },
+
+    "presence_config": {
+        "preschangetimer": "10000",
+        "presname1": "TEXT_STATUS_HERE",
+        "prestype1": "PLAYING",
+        "presstatus1": "dnd",
+        "presname2": "TEXT_STATUS_HERE_2",
+        "prestype2": "WATCHING",
+        "presstatus2": "dnd",
+        "presname3": "TEXT_STATUS_HERE_3",
+        "prestype3": "LISTENING",
+        "presstatus3": "dnd"
+    },
+
+    "rp_bot_config": {
+        "clock_in_channel": "811727744786235422",
+        "clock_out_channel": "811727744786235422",
+        "applylink": "https://apply.roleplay.com",
+        "cadlink": "https://cad.roleplay.com/",
+        "ip": "join.hyperz.astra"
+    },
+
+    "other_configuration": {
+        "usesecrets": true
+    }
+}
