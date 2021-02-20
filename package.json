@@ -3,6 +3,21 @@
   "version": "1.0.0",
   "description": "Hyperz Refreshed Discord.JS bot that will be put up for sale",
   "main": "main.js",
+  "contributors": [
+    {
+      "name": "HyperZ",
+      "url": "https://hyperz.dev"
+    },
+    {
+      "name": "AstraWRLD",
+      "url": "https://github.com/AstraWRLD"
+    },
+    {
+      "name": "Ronchetto, Matt (doamatto)",
+      "email": "hello@doamatto.xyz",
+      "url": "https://doamatto.xyz"
+    }
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,7 +29,6 @@
     "JavaScript",
     "DiscordJS"
   ],
-  "author": "Hyperz#0001",
   "license": "MIT",
   "dependencies": {
     "discord.js": "^12.5.1",
