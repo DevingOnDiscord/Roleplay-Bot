@@ -1,11 +1,11 @@
-const fs = require('fs');
+import fs from 'fs'
 
-module.exports = (client, fart, config) =>{
-    const commandfiles = fs.readdirSync('./commands/').filter(file => file.endsWith('.js'));
+module.exports = (client) =>{
+    const commandfiles = fs.readdirSync('../commands/').filter(file => file.endsWith('.js'));
 
     for(const file of commandfiles){
         const command = require(`../commands/${file}`);
-        if(command.name){
+        if(command.name) {
             client.commands.set(command.name, command);
         } else {
             continue;

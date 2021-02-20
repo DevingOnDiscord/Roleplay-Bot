@@ -1,7 +1,7 @@
-const fs = require('fs');
-const config = require('../../config.json');
+import fs from 'fs'
+import config from '@root/config.json'
 
-module.exports = (client, fart, config, message) =>{
+module.exports = (client, djs, config, message) =>{
     const prefix = config["main_config"].prefix;
     if(!message.content.startsWith(prefix) || message.author.bot) return;
 
@@ -10,5 +10,5 @@ module.exports = (client, fart, config, message) =>{
 
     const command = client.commands.get(cmd) || client.commands.find(a => a.aliases.includes(cmd));
 
-    if(command) command.execute(client, message, args, fart, config)
+    if(command) command.execute(client, message, args, djs, config)
 }
