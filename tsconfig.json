@@ -1,10 +1,19 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "outDir": "./bin",
     "allowJs": true,
     "target": "es6",
     "module": "commonjs",
+    "resolveJsonModule": true,
     "esModuleInterop": true,
+    "paths": {
+      "@/*": ["src/"],
+      "@/events/*": ["src/events/*"],
+      "@/cmds/*": ["src/commands/*"],
+      "@/helpers/*": ["src/helpers/*"],
+      "@root/*": ["."],
+    },
   },
-  "include": ["./src/**/*"]
+  "include": ["./src/**/*", "types/global.d.ts"]
 }
