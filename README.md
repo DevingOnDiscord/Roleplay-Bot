@@ -9,6 +9,11 @@ This is an advanced roleplay bot for your RP server written in DJS
 
 You can also use `npm run dev` to easily develop the bot with nodemon
 
+## Usage
+| Commands | Usage | Example |
+| -------- | ----- | ------- |
+| h!apply |  
+
 ## Credits
 - Programming [Astra](https://github.com/AstraWRLD)
 - Programming [Hyperz](https://github.com/Itz-Hyperz)
