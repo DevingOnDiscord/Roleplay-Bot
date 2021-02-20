@@ -2,7 +2,6 @@
   "name": "hyperz-djs-base",
   "version": "1.0.0",
   "description": "Hyperz Refreshed Discord.JS bot that will be put up for sale",
-  "main": "main.js",
   "contributors": [
     {
       "name": "HyperZ",
@@ -20,8 +19,8 @@
   ],
   "scripts": {
     "build": "tsc -p ./",
-    "dev": "nodemon src/index.ts",
-    "serve": "yarn build && node bin/index.js"
+    "dev": "nodemon src/main.ts",
+    "serve": "yarn build && node bin/main.js"
   },
   "keywords": [
     "HyperzBot",
